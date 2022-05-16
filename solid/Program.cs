@@ -6,3 +6,8 @@ ISP - Interface Segregation Principle
 DIP - Dependency Inversion Principle
 */
 
+using solid.LSP;
+
+A av = new A();
+
+av.getNome();

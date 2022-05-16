@@ -10,21 +10,21 @@ namespace solid.LSP
     So encontrei em java 
     e não consegui reproduzir em c#
     qualquer um que queira dar uma ajuda 
-    pode fazer pull request 
+    pode fazer pull request.
     */
     public class A
     {
-        public void getNome()
+        public virtual void getNome()
         {
-            Console.WriteLine("Nome: A");
+            Console.WriteLine("Classe: A");
         }
     }
 
     public class B : A
     {
-        public new void getNome()
+        public override void getNome()
         {
-            Console.WriteLine("Nome: B");
+            Console.WriteLine("Classe: B");
         }
     }
 
