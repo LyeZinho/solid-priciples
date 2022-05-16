@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace solid.LSP
 {
+    /*
+    So encontrei em java 
+    e não consegui reproduzir em c#
+    qualquer um que queira dar uma ajuda 
+    pode fazer pull request 
+    */
     public class A
     {
         public void getNome()
